@@ -1,0 +1,79 @@
+#comparação {
+    background: linear-gradient(rgb(104, 0, 104), rgb(255, 49, 255));
+    padding: 100px;
+    width: 300px;
+    border-radius: 40px;
+    text-align: center;
+    margin: auto;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(48, 47, 47);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin: 8px;
+    border-radius: 10px;
+    padding: 8px 15px
+}
+
+p {
+    font-size: 14px;
+}
+
+.error-message {
+    display: none;
+    background-color: red;
+}
+
+.success-message {
+    display: none;
+    background-color: green;
+}
+
+button {
+    background-color: rgb(138, 5, 255);
+    color: aliceblue;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 4px auto;
+    padding: 6px;
+    width: 100px;
+    align-items: center;
+}
+
+button:hover {
+    background-color: rgb(149, 28, 255);
+    color: aliceblue;
+}
+
+.sucesso {
+    text-align: center;
+    background-color: green;
+    padding: 10px;
+    color: #fff;
+    margin: 10px auto;
+    width: 150px;
+    display: none;
+    border-radius: 18px;
+}
+
+.erro {
+    text-align: center;
+    background-color: red;
+    padding: 10px;
+    color: #fff;
+    margin: 10px auto;
+    width: 150px;
+    display: none;
+    border-radius: 18px;
+}
